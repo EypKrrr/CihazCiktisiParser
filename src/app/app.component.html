@@ -1,14 +1,16 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
+
+  <h1 style="text-align:center">
     Girdi kısmı
   </h1>
-
-  <textarea rows="4" [(ngModel)]="sourceText"></textarea>
-  <hr>
-  <button (click)="RunParser()">Parse</button>
-<p>{{ sourceText }}</p>
-</div>
+<mat-card>
+<mat-form-field>
+  <textarea matInput rows="2" [(ngModel)]="sourceText"></textarea>
+</mat-form-field>
+<button mat-raised-button color=primary (click)="RunParser()">Parse</button>
+</mat-card>  
+<hr>
+<p>{{ sourceText }}</p> 
 
 
 
