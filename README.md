@@ -1,1 +1,1 @@
-# CihazCiktisiParser
+# Cihaz Çıktısı Parser Projesi
